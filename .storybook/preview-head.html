@@ -1,0 +1,14 @@
+<script>
+  document.documentElement.dataset.nuPrevent = '';
+  document.documentElement.dataset.nuIcons = 'ion';
+</script>
+<script>
+  setTimeout(() => {
+    const script = document.createElement('script');
+
+    script.src = 'https://cdn.skypack.dev/numl@1.0.0-beta.22';
+    script.type = 'module';
+
+    document.body.appendChild(script);
+  });
+</script>
